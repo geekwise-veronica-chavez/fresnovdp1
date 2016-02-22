@@ -6,13 +6,11 @@ html, body{
     width: 100%;
 }
 
-    
-}
 header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    font-size: 1rem;
+    font-size: 10px;
     background-color:#e10105;
 }
 section{
@@ -90,7 +88,16 @@ a:hover{
 
     text-decoration: underline;
 }
-
+#flag{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    margin-right: 178px;
+    background: transparent;
+    position: relative;
+    opacity: .3;
+}
 main{
     width: 80%;
     height: 450px;
@@ -100,6 +107,7 @@ main{
     display: inline-block;
     position: relative;
     text-align: center;
+    top:-780px;
    
 }
 
@@ -111,7 +119,6 @@ section{
     padding: 0;  
     display: inline;
     text-align: center;
-    
 }
 #sec1{
     height: 100%;
@@ -166,16 +173,18 @@ section>ul>li{
     background-color: aqua;
 }
 footer{
-    margin: auto;
+    margin:0;
     padding: 0px;
     width: 80%;
     height: 150px;
     text-align: center;
-    letter-spacing: 20px
+    letter-spacing: 20px;
+    position: relative;
+    top: -700px;
 }
 #copy{
     width: 100%;
-    margin: auto 0;
+    margin-left: 100px;
     padding: 0;
     text-align: left;
     letter-spacing: 0;
@@ -185,7 +194,9 @@ footer{
     margin: auto;
     padding:0;
     text-align: center;
-    margin-left: 590px;
+    margin-left: 465px;
+    position: relative;
+    top: -705px;
     
    
 }

@@ -89,6 +89,16 @@ a:hover{
 
     text-decoration: underline;
 }
+#flag{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    margin-right: 50px;
+    background: transparent;
+    position: relative;
+    opacity: .3;
+}
 #about{
     width: 80%;
     height: 500px;
@@ -103,6 +113,8 @@ a:hover{
     text-align: left;
     height: 600px;
     margin-left: 172px;
+    position: relative;
+    top: -800px;
 }
 article:nth-of-type(1){
     
@@ -150,7 +162,9 @@ footer{
     height: 150px;
     text-align: center;
     letter-spacing: 40px;
-    margin-left: 280px
+    margin-left: 280px;
+    position: relative;
+    top: -800px;
 }
 #copy{
     width: 100%;
@@ -165,7 +179,8 @@ footer{
     padding:0;
     text-align: center;
     margin-left: 640px;
-    
+    position: relative;
+    top: -800px;
    
 }
 #face{
